@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Main Sections | yeeyeji</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #eae6df;
+      font-family: 'Helvetica Neue', sans-serif;
+    }
+    .container {
+      position: relative;
+      max-width: 1366px;
+      margin: 0 auto;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .link {
+      position: absolute;
+      text-decoration: none;
+      color: transparent;
+    }
+
+    /* 버튼 위치 조정 */
+    .Leeyeji { top: 12.6%; left: 8.2%; width: 22%; height: 6%; }
+    .creative { top: 30%; left: 39.5%; width: 34%; height: 6%; }
+    .learning { top: 60.5%; left: 9.6%; width: 44%; height: 6%; }
+    .why { top: 83.3%; left: 52.2%; width: 40%; height: 6%; }
+
+    .link:hover {
+      outline: 2px dashed rgba(128, 0, 128, 0.3);
+      border-radius: 2px;
+    }
+
+    .back-button {
+    display: block;
+    margin: 50px auto 30px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: 2px solid #aaa;
+    border-radius: 30px;
+    font-size: 1rem;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  } 
+
+.back-button:hover {
+  background-color: #ddd;
+  border-color: #888;
+  color: #000;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="secondpage.png" alt="main navigation" />
+
+    <!-- 외부 링크들 -->
+    <a class="link Leeyeji" href="https://yejilee0307.github.io/leeyeji/leeyeji.html" target="_blank">yeeyeji</a>
+    <a class="link creative" href="https://yejilee0307.github.io/thirdpage/thirdpage.html" target="_blank">Creative Works</a>
+    <a class="link learning" href="https://yejilee0307.github.io/learningbydoing/learning_by_doing.html" target="_blank">Learning by doing</a>
+    <a class="link why" href="https://yejilee0307.github.io/whyaxt/whyaxt.html" target="_blank">Why Art & Tech</a>
+  </div>
+
+  <!-- 뒤로가기 버튼 -->
+<button class="back-button" onclick="history.back()">← Go Back</button>
+
+</body>
+</html>
